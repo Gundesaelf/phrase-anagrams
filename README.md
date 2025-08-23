@@ -13,5 +13,6 @@ Install `colorama` with:
 
 ```bash
 pip install colorama
+```
 
-## 🔗 Connect with me https://www.linkedin.com/in/chris-gundes
+🔗 Connect with me https://www.linkedin.com/in/chris-gundes
