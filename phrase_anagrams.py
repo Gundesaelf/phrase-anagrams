@@ -79,7 +79,7 @@ def main():
             anagrams = find_anagrams(name_count, words)
             remaining_letters = sum(name_count.values())
 
-            print(Fore.LIGHTYELLOW_EX + f'\nAvailable words:', anagrams)
+            print(Fore.LIGHTYELLOW_EX + f'\nAvailable words:\n', anagrams)
 
             print(Fore.LIGHTGREEN_EX)
             print('\nRemaining letters:', ''.join(letter * count for letter, count in name_count.items()))
@@ -103,3 +103,4 @@ def main():
 # |---------------------------------MAIN_LOOP---------------------------------|
 if __name__ == '__main__':
     main()
+
